@@ -13,7 +13,7 @@
   
   
   <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
-  
+  <meta name="github-repo" content="gisler/RPhosFateBook" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 3 Literature | A Minimal Book Example" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Yihui Xie" />
 
 
-<meta name="date" content="2021-07-03" />
+<meta name="date" content="2021-07-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -191,18 +191,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
+"github": true,
 "facebook": false,
-"twitter": false,
-"linkedin": false,
+"twitter": true,
+"linkedin": true,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+"all": {}
 },
 "fontsettings": {
 "theme": "white",
-"family": "sans",
+"family": "serif",
 "size": 2
 },
 "edit": {
